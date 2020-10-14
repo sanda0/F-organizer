@@ -16,7 +16,7 @@ print(banner)
 #file types
 audio = ['.mp3','.wav','.flac','.ogg','.m3u','.acc','.wma','.midi','.aif','.mpa','.pls']
 vedio = ['.mp4','.avi','.wmv','.webm','.flv']
-doc = ['.txt','.pdf','.docx','.xlsx','.pptx']
+doc = ['.txt','.pdf','.docx','.xlsx','.pptx','.doc']
 image = ['.png','.jpg','.gif','.jpeg']
 apps = ['.exe','.bat','.msi']
 ##
