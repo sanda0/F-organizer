@@ -75,7 +75,7 @@ for f in file_list:
     elif ex in apps:
         print("%s is app"%(f))
         os.replace(f,"Apps[fo]/"+f)
-    else:
+    elif ex != "":
         print("%s is unknown file format"%(f))
         os.replace(f,"Unknown[fo]/"+f)
 
